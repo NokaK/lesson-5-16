@@ -1,0 +1,46 @@
+/*@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');*/
+
+body {
+	font-family: 'Lilita One', cursive;
+}
+header {
+	background: red;
+}
+header:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+.logo {
+	float: left;
+	font-size: 30px;
+}
+.navbar {
+	float: right;
+	font-size: 24px;
+}
+.navbar li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.navbar li:before {
+	content: "";
+	height: 20px;
+	width: 10px;
+	background: blue;
+	display: inline-block;
+}
+.navbar li:after {
+	content: "";
+	height: 20px;
+	width: 10px;
+	background: red;
+	display: inline-block;
+}
+.title-h1 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:  24px;
+}
+.clear {
+	clear: both;
+}
